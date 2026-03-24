@@ -1,0 +1,51 @@
+name: esilv_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # UI
+  flutter_svg: 2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/drawables/
+    - assets/fonts/
+    - assets/svg/
+
+  fonts:
+    - family: AppIcons
+      fonts:
+        - asset: assets/fonts/app_icons.ttf
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/Avenir-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Avenir-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Avenir-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Avenir-Black.ttf
+          weight: 900
+
+  generate: true

@@ -1,0 +1,11 @@
+no_comments: true
+package: assets
+
+groups:
+  - path: assets/drawables
+    class_name: AppImages
+    types: [ .jpg, .png, .webp ]
+
+  - path: assets/svg
+    class_name: AppVectorialImages
+    types: [ .svg ]
